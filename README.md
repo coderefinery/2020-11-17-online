@@ -77,11 +77,11 @@ Overlapping roles are allowed when you think it's reasonable!
          <td></td><!--expert helpers-->
 </tr>
 <tr>
-  <th>19.oct (The)</th>
+  <th>19.nov (The)</th>
          <td>
 		     git-collab<br>
-		 	<a href="https://coderefinery.github.io/git-collaborative/01-remotes/">sharing repos</a> and <a href="https://coderefinery.github.io/git-collaborative/02-centralized/">centralized workflow</a>: TBA<br>
-		 <a href="https://coderefinery.github.io/git-collaborative/03-distributed/">forking</a> and <a href="https://coderefinery.github.io/git-collaborative/04-contributing/">contribution to others</a>: TBA<br>
+		 	<a href="https://coderefinery.github.io/git-collaborative/01-remotes/">sharing repos</a> and <a href="https://coderefinery.github.io/git-collaborative/02-centralized/">centralized workflow</a>: Thor<br>
+		 <a href="https://coderefinery.github.io/git-collaborative/03-distributed/">forking</a> and <a href="https://coderefinery.github.io/git-collaborative/04-contributing/">contribution to others</a>: Thor<br>
 	     </td>
          <td>Naoe</td><!--host-->
          <td></td><!--hackmd-->
