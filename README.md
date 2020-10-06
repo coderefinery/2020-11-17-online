@@ -67,8 +67,8 @@ Overlapping roles are allowed when you think it's reasonable!
   <th>18.nov (Wed)</th>
          <td>
 		     git-intro<br> 
-		 	<a href="https://coderefinery.github.io/git-intro/06-branches/">branches and merging</a>: TBA<br>
-		     	<a href="https://coderefinery.github.io/git-intro/08-conflicts/">conflict resolution</a>: TBA<br>
+		 	<a href="https://coderefinery.github.io/git-intro/06-branches/">branches and merging</a>: Anne<br>
+		     	<a href="https://coderefinery.github.io/git-intro/08-conflicts/">conflict resolution</a>: Anne<br>
 			<a href="https://coderefinery.github.io/git-intro/09-remotes/">sharing repositories</a>: TBA<br>
 		 	<a href="https://coderefinery.github.io/git-intro/10-archaeology/">history inspection</a>: TBA<br>
 	     </td>
@@ -111,7 +111,7 @@ Overlapping roles are allowed when you think it's reasonable!
 <tr>
   <th>26.nov (Thu)</th>
          <td>
-		     <a href="https://coderefinery.github.io/testing/">testing</a>: TBA<br>
+		     <a href="https://coderefinery.github.io/testing/">testing</a>: Anne<br>
 		     <a href="https://github.com/coderefinery/modular-type-along">modular code development</a>: TBA<br>
 		 <a href="https://github.com/coderefinery/workshop-outro/blob/master/README.md">outro</a>: TBA<br>
 	     </td>
