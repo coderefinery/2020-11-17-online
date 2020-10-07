@@ -1,5 +1,5 @@
 ![](img/prace_logo.png)
-![](img/logo_small.jpeg)
+<img src="img/logo_small.jpeg" alt="drawing" width="100"/>
 
 # Online CodeRefinery workshop
 
