@@ -10,18 +10,20 @@ If yes, then this course is for you.  This is not designed for
 "professional code developers" or computer scientists.
 
 If you develop research code and you know all the tools
-already, join us as a helper! It's fun, and you always learn
+already, **join us as a helper!** It's fun, and you always learn
 something new about a subject by teaching it.
 
 
 ### How to join
 
-We are normally limited by number of helpers, thus:
+We are normally limited by number of helpers, thus *why not allow
+groups to bring their own helper?*:
 
-- Anyone may register as a learner, we will try to take as many as we can.
-- Or you can register as a helper.  If you are somewhat comfortable
+- We have the concept of **teams** that **bring their own breakout room**.
+- Anyone may **register as a learner**, we will try to take as many as we can.
+- Or you can **register as a helper**.  If you are somewhat comfortable
   with these tools, you can be a helper! (see below)
-- Register as a team, one helper and 4-6 learners.
+- **Register as a team**, one helper and 4-6 learners.
   - We will accept all complete teams.
   - Everyone on the team must register separately.
   - Decide some team name, and when registering, everone enter this
@@ -47,29 +49,25 @@ language that you use in your work and research.  We try to keep the course as
 language-independent as possible but we will show some basic code examples in
 Python.
 
+### Host
 
-### Prerequisites
-
-- You should be able to navigate the file tree in a terminal session and edit
-  text files in the terminal.
-  [This Linux shell crash course](https://scicomp.aalto.fi/scicomp/shell.html)
-  ([video](https://youtu.be/56p6xX0aToI))
-  contains the essentials.
-- Basics in one or more programming languages.
-- You need to install some software. Please follow links at right.
-- It is useful if you have a basic idea of how Git works. We will start from
-  the basics anyway, but please go through
-  [this Git-refresher material](https://coderefinery.github.io/git-refresher/)
-  for a basic overview and important configuration steps.
-- Make sure that git is configured, and verify the configuration:
-  [text instructions](https://coderefinery.github.io/installation/git/#configuring-git),
-  [video](https://www.youtube.com/watch?v=WdDTp8NeHBs&t=258s).
-
+- Naoe Tatara
 
 ### Instructors
 
-- TBA
+- Radovan Bast
+- Anne Fouilloux
+- Bjørn Lindi
+- Sabry Razick
+- Annika Rockenberger
+- Thor Wikfeldt
 
+
+### Expert helpers
+
+- Max R. Eckardt
+- Juho Lehtonen
+- Stefan Negru
 
 ### Helpers
 
@@ -87,12 +85,18 @@ helpers](https://coderefinery.github.io/manuals/helping-and-teaching/)).
   git, provide some initial advice on obvious error messages, and
   be able to call us for advanced help when it's needed.
 
-- **How does the waitlist work?**  Anyone can register, but you go to
+- **How does the waiting list work?**  Anyone can register, but you go to
   the waitlist until we can be sure we have enough helpers.  We'll
   continually approve people as we get space.  We know
   this may be more unpredictable for you, but the way to make sure you
   get in is join a team with a helper (or find us more helpers in
-  general).
+  general). 
 
+- **If it's online, why did you close?**  CodeRefinery workshops are
+  interactive, with lots of interaction between instructors, helpers,
+  and learners.  We can scale one-to-many easily, but we reached the
+  limits of an interactive format.
 
-- TBA
+- **How can I be notified of updates?**  Currently, we don't have any
+  way.  Follow [@coderefine](https://twitter.com/coderefine) on
+  Twitter.
