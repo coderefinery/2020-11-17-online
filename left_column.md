@@ -91,7 +91,7 @@ The schedule is subject to change.
 **Day 1 (Nov 17, Tue)**
 - 9:00 - 9:20
   [Welcome and practical information](https://github.com/coderefinery/workshop-intro/blob/master/README.md)
-  (TBA)
+  (Thor)
 - 9:20 - 12:00
   [Introduction to version control - part 1/2](https://coderefinery.github.io/git-intro/) ("Motivation" to "Undoing")
   (Sabry)
@@ -106,16 +106,16 @@ The schedule is subject to change.
 **Day 3 (Nov 19, Thu)**
 - 9:00 - 12:00
   [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
-  (TBA)
+  (Thor)
 
 
 **Day 4 (Nov 24, Tue)**
 - 9:00 - 9:15
   [Mini-intro](https://github.com/coderefinery/workshop-intro/blob/master/README.md)
-  (TBA)
+  (Thor)
 - 9:00 - 11:00
   [Reproducible research and FAIR data](https://coderefinery.github.io/reproducible-research/)
-  (Johan)
+  (TBA)
 - 11:00 - 12:00
   [Social coding and open software](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md)
   (TBA)
@@ -124,7 +124,7 @@ The schedule is subject to change.
 **Day 5 (Nov 25, Wed)**
 - 9:00 - 10:30
   [Documentation](https://coderefinery.github.io/documentation/)
-  (Thor)
+  (TBA)
 - 10:30 - 12:00
   [Jupyter](https://coderefinery.github.io/jupyter/)
   (TBA)
@@ -136,10 +136,10 @@ The schedule is subject to change.
   (TBA)
 - 10:45 - 11:45
   [Modular code development](https://github.com/coderefinery/modular-type-along)
-  (Jens)
+  (TBA)
 - 11:45 - 12:00
   [Concluding remarks and where to go from here](https://github.com/coderefinery/workshop-outro/blob/master/README.md)
-  (TBA)
+  (Thor)
 
 ### Location
 
