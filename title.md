@@ -1,4 +1,5 @@
 ![](img/prace_logo.png)
+![](img/logo_small.jpeg)
 
 # Online CodeRefinery workshop
 
