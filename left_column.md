@@ -100,7 +100,7 @@ The schedule is subject to change.
 **Day 2 (Nov 18, Wed)**
 - 9:00 - 12:00
   [Introduction to version control - part 2/2](https://coderefinery.github.io/git-intro/) ("Branching and merging" to "Inspecting history")
-  (TBA)
+  (Sabry)
 
 
 **Day 3 (Nov 19, Thu)**
@@ -118,7 +118,7 @@ The schedule is subject to change.
   (Johan)
 - 11:00 - 12:00
   [Social coding and open software](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md)
-  (Sabry)
+  (TBA)
 
 
 **Day 5 (Nov 25, Wed)**
