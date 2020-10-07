@@ -10,20 +10,38 @@
 support@coderefinery.org
 
 
-
-
 ### Course goals and format
 
-In this course, you will become familiar with tools and best practices
-for version control in modern research software development. The main
-focus is on using Git for efficiently writing and maintaining research
-software.  We don't teach programming, but we teach the tools you need
-to use programming well.
+In this course, you will become familiar with tools and best practices for 
+**version control and reproducibility** in modern research software development. 
+The main focus is on using Git for efficiently writing and maintaining research
+software.  
+
+**We will not teach programming**, but we teach the tools you need to use programming 
+well. We assume that you are familiar with the programming language that you
+use in your work and research. We try to keep the course as
+language-independent as possible but we will show some basic code examples in
+Python.
 
 This is an informal and interactive event with type-along type
 of presentations, live coding, and demos. Short tutorials alternate
 with practical exercises.
 
+
+### Prerequisites
+
+- You should be able to navigate the file tree in a terminal session and edit
+  text files in the terminal.
+  [This Linux shell crash course](https://scicomp.aalto.fi/scicomp/shell/)
+  ([video](https://youtu.be/56p6xX0aToI))
+  contains the essentials.
+- Basics in one or more programming languages.
+- You need to install some software (see below).
+- It is useful if you have a basic idea of how Git works. We will start from
+  the basics anyway, but please go through
+  [this Git-refresher material](https://coderefinery.github.io/git-refresher/)
+  for a basic overview and important configuration steps.
+- Make sure that Git is configured, and verify the configuration (see below).
 
 
 ### Software requirements
@@ -50,11 +68,7 @@ and/or ask for help to translate these instructions to work on your system.**
 - [Python](https://coderefinery.github.io/installation/python/)
 - [Jupyter and JupyterLab](https://coderefinery.github.io/installation/jupyter)
 - [Snakemake](https://coderefinery.github.io/installation/snakemake)
-- [Zoom](https://coderefinery.github.io/installation/zoom/) (note: a
-  new version released on 27.april will be required for the second
-  week!)
-- University computer specific instructions:
-  - [Aalto University](https://scicomp.aalto.fi/news/coderefinery/)
+- [Zoom](https://coderefinery.github.io/installation/zoom/) 
 
 **You should either a) drop by one of our verification sessions in
 advance, or b) verify with your team's helper before the workshop.**
@@ -62,62 +76,75 @@ advance, or b) verify with your team's helper before the workshop.**
 
 ### Schedule
 
-Day 1
-- 9:00 - 9:30
+All times are in **Europe/Stockholm time** 
+[Time converter](https://arewemeetingyet.com/Stockholm/2020-11-17/09:00/CodeRefinery)
+
+The schedule includes frequent breaks.
+The schedule is subject to change.
+
+**Pre-workshop installation help and verification times**
+- Nov 12 (Thu) 13:00 - 14:00
+- Nov 13 (Fri) 13:00 - 14:00
+- Join anytime during this (preferably not everyone at the very start
+  and end)
+
+**Day 1 (Nov 17, Tue)**
+- 9:00 - 9:20
   [Welcome and practical information](https://github.com/coderefinery/workshop-intro/blob/master/README.md)
   (TBA)
-- 9:30 - 12:00
-  [Introduction to version control - part 1/2](https://coderefinery.github.io/git-intro/)
-  (TBA)
-- 12:00 - 13:00
-  Lunch break
-- 13:00 - 15:00
-  [Introduction to version control - part 2/2](https://coderefinery.github.io/git-intro/)
-  (TBA)
-- 15:30 - 17:00
-  [Social coding and open software](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md)
+- 9:20 - 12:00
+  [Introduction to version control - part 1/2](https://coderefinery.github.io/git-intro/) ("Motivation" to "Undoing")
+  (Sabry)
+
+
+**Day 2 (Nov 18, Wed)**
+- 9:00 - 12:00
+  [Introduction to version control - part 2/2](https://coderefinery.github.io/git-intro/) ("Branching and merging" to "Inspecting history")
   (TBA)
 
-Day 2
-- 9:00 - 10:30
-  [Modular code development](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md)
+
+**Day 3 (Nov 19, Thu)**
+- 9:00 - 12:00
+  [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
   (TBA)
-- 11:00 - 12:00
-  [Collaborative distributed version control 1/2](https://coderefinery.github.io/git-collaborative/)
+
+
+**Day 4 (Nov 24, Tue)**
+- 9:00 - 9:15
+  [Mini-intro](https://github.com/coderefinery/workshop-intro/blob/master/README.md)
   (TBA)
-- 12:00 - 13:00
-  Lunch break
-- 13:00 - 14:30
-  [Collaborative distributed version control 2/2](https://coderefinery.github.io/git-collaborative/)
-  (TBA)
-- 15:00-17:00
+- 9:00 - 11:00
   [Reproducible research and FAIR data](https://coderefinery.github.io/reproducible-research/)
-  (TBA)
+  (Johan)
+- 11:00 - 12:00
+  [Social coding and open software](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md)
+  (Sabry)
 
-Day 3
+
+**Day 5 (Nov 25, Wed)**
 - 9:00 - 10:30
   [Documentation](https://coderefinery.github.io/documentation/)
-  (TBA)
-- 11:00 - 12:00
-  [Automated testing part 1/2](https://coderefinery.github.io/testing/)
-  (TBA)
-- 12:00 - 13:00
-  Lunch break
-- 13:00 - 14:00
-  [Automated testing part 2/2](https://coderefinery.github.io/testing/)
-  (TBA)
-- 14:30 - 16:30
+  (Thor)
+- 10:30 - 12:00
   [Jupyter](https://coderefinery.github.io/jupyter/)
   (TBA)
-- 16:30 - 17:00
+
+
+**Day 6 (Nov 26, Thu)**
+- 9:00 - 10:30
+  [Automated testing](https://coderefinery.github.io/testing/)
+  (TBA)
+- 10:45 - 11:45
+  [Modular code development](https://github.com/coderefinery/modular-type-along)
+  (Jens)
+- 11:45 - 12:00
   [Concluding remarks and where to go from here](https://github.com/coderefinery/workshop-outro/blob/master/README.md)
   (TBA)
-
 
 ### Location
 
 The workshop will be held online, participant links will be sent to
-registered participants.  Also streamed at [https://twitch.tv/coderefinery]
+registered participants.  
 
 
 ### Price
