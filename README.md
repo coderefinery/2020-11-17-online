@@ -101,7 +101,7 @@ Overlapping roles are allowed when you think it's reasonable!
 <tr>
   <th>25.nov (Wed)</th>
          <td>
-		    <a href="https://coderefinery.github.io/documentation/">documentation</a>: TBA<br>
+		    <a href="https://coderefinery.github.io/documentation/">documentation</a>: Pavlin<br>
 		    <a href="https://coderefinery.github.io/jupyter/">jupyter</a>: TBA<br>
 	     </td>
          <td>Naoe</td><!--host-->
