@@ -58,6 +58,7 @@ Python.
 - Radovan Bast
 - Anne Fouilloux
 - Bjørn Lindi
+- Pavlin Mitev
 - Sabry Razick
 - Annika Rockenberger
 - Thor Wikfeldt
