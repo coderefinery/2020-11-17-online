@@ -72,6 +72,9 @@ Python.
 
 ### Helpers
 
+- Raphaela Heil
+- Diana Iusan
+
 ([Tips for
 helpers](https://coderefinery.github.io/manuals/helping-and-teaching/)).
 
