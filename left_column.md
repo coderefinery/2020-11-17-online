@@ -81,11 +81,8 @@ All times are in **Europe/Stockholm time**
 [Time converter](https://arewemeetingyet.com/Stockholm/2020-11-17/09:00/CodeRefinery)
 
 The schedule includes frequent breaks.
-The schedule is subject to change.
 
 **Helper onboarding**
-We arrange a helper onboarding sessions on the following dates and time.
-Strongly recommended for the first-time helpers. Please join one of the following sessions that fits your schedule.
 - Nov 10 (Tue) 13:00 - 14:00
 - Nov 11 (Wed) 10:00 - 11:00
 
@@ -134,7 +131,7 @@ Strongly recommended for the first-time helpers. Please join one of the followin
   (Pavlin)
 - 10:30 - 12:00
   [Jupyter](https://coderefinery.github.io/jupyter/)
-  (TBA)
+  (Radovan)
 
 
 **Day 6 (Nov 26, Thu)**
@@ -143,15 +140,14 @@ Strongly recommended for the first-time helpers. Please join one of the followin
   (Anne)
 - 10:45 - 11:45
   [Modular code development](https://github.com/coderefinery/modular-type-along)
-  (TBA)
+  (Radovan)
 - 11:45 - 12:00
   [Concluding remarks and where to go from here](https://github.com/coderefinery/workshop-outro/blob/master/README.md)
   (Thor)
 
 ### Location
 
-The workshop will be held online, participant links will be sent to
-registered participants.  
+The workshop will be held online by Zoom. Helpers and accepted learnes will receive a link.  
 
 
 ### Price
