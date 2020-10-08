@@ -122,7 +122,7 @@ Strongly recommended for the first-time helpers. Please join one of the followin
   (Thor)
 - 9:00 - 11:00
   [Reproducible research and FAIR data](https://coderefinery.github.io/reproducible-research/)
-  (TBA)
+  (Anne)
 - 11:00 - 12:00
   [Social coding and open software](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md)
   (Annika)
