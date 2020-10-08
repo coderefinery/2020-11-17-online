@@ -34,30 +34,30 @@ Overlapping roles are allowed when you think it's reasonable!
          <th>Experts helpers</th>
 </tr>
 <tr>
-  <th>12.nov (Thu) 13-14 CEST</th>
+  <th>10.nov (Tue) 13-15 CEST</th>
          <td>
-		     Installation help
+		     Helper onboarding and Installation help: Thor
 	     </td>
-         <td></td><!--host-->
+         <td>Naoe</td><!--host-->
          <td></td><!--hackmd-->
          <td></td><!--expert helpers-->
 </tr>
 <tr>
-  <th>13.nov (Fri) 13-14 CEST</th>
+  <th>11.nov (Fri) 13-14 CEST</th>
          <td>
-		     Installation help
+		     Helper onboarding and Installation help: Thor
 	     </td>
-         <td></td><!--host-->
+         <td>Naoe</td><!--host-->
          <td></td><!--hackmd-->
          <td></td><!--expert helpers-->
 </tr>
 <tr>
   <th>17.nov (Tue)</th>
          <td>
-		     intro: TBA<br>
-		     git-intro <br>
-		 	<a href="https://coderefinery.github.io/git-intro/01-motivation/">motivation</a>: TBA<br>
-		     	<a href="https://coderefinery.github.io/git-intro/04-staging-area/">staging</a>, <a href="https://coderefinery.github.io/git-intro/05-undoing/">undoing</a>: TBA<br>
+		     intro: Thor<br>
+		     git-intro 1/2<br>
+		 	<a href="https://coderefinery.github.io/git-intro/01-motivation/">motivation</a>: Sabry<br>
+		     	<a href="https://coderefinery.github.io/git-intro/04-staging-area/">staging</a>, <a href="https://coderefinery.github.io/git-intro/05-undoing/">undoing</a>: Sabry<br>
 	     </td>
          <td>Naoe</td><!--host-->
          <td></td><!--hackmd-->
@@ -66,11 +66,11 @@ Overlapping roles are allowed when you think it's reasonable!
 <tr>
   <th>18.nov (Wed)</th>
          <td>
-		     git-intro<br> 
+		    git-intro 2/2<br>
 		 	<a href="https://coderefinery.github.io/git-intro/06-branches/">branches and merging</a>: Anne<br>
 		     	<a href="https://coderefinery.github.io/git-intro/08-conflicts/">conflict resolution</a>: Anne<br>
-			<a href="https://coderefinery.github.io/git-intro/09-remotes/">sharing repositories</a>: TBA<br>
-		 	<a href="https://coderefinery.github.io/git-intro/10-archaeology/">history inspection</a>: TBA<br>
+			<a href="https://coderefinery.github.io/git-intro/09-remotes/">sharing repositories</a>: Sabry<br>
+		 	<a href="https://coderefinery.github.io/git-intro/10-archaeology/">history inspection</a>: Sabry<br>
 	     </td>
          <td>Naoe</td><!--host-->
          <td></td><!--hackmd-->
@@ -81,7 +81,7 @@ Overlapping roles are allowed when you think it's reasonable!
          <td>
 		     git-collab<br>
 		 	<a href="https://coderefinery.github.io/git-collaborative/01-remotes/">sharing repos</a> and <a href="https://coderefinery.github.io/git-collaborative/02-centralized/">centralized workflow</a>: Thor<br>
-		 <a href="https://coderefinery.github.io/git-collaborative/03-distributed/">forking</a> and <a href="https://coderefinery.github.io/git-collaborative/04-contributing/">contribution to others</a>: Thor<br>
+		 	<a href="https://coderefinery.github.io/git-collaborative/03-distributed/">forking</a> and <a href="https://coderefinery.github.io/git-collaborative/04-contributing/">contribution to others</a>: Thor<br>
 	     </td>
          <td>Naoe</td><!--host-->
          <td></td><!--hackmd-->
@@ -90,8 +90,8 @@ Overlapping roles are allowed when you think it's reasonable!
 <tr>
   <th>24.nov (Tue)</th>
          <td>
-		     <a href="https://github.com/coderefinery/workshop-intro/blob/master/video.md">intro</a>: TBA<br>
-		     	<a href="https://coderefinery.github.io/reproducible-research/">reproducible research</a>: TBA<br>
+		     <a href="https://github.com/coderefinery/workshop-intro/blob/master/video.md">intro</a>: Thor<br>
+		     	<a href="https://coderefinery.github.io/reproducible-research/">reproducible research</a>: Anne<br>
 		     	<a href="https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md">social coding</a>: Annika<br>
 	     </td>
          <td>Naoe</td><!--host-->
@@ -113,7 +113,7 @@ Overlapping roles are allowed when you think it's reasonable!
          <td>
 		     <a href="https://coderefinery.github.io/testing/">testing</a>: Anne<br>
 		     <a href="https://github.com/coderefinery/modular-type-along">modular code development</a>: TBA<br>
-		 <a href="https://github.com/coderefinery/workshop-outro/blob/master/README.md">outro</a>: TBA<br>
+		 <a href="https://github.com/coderefinery/workshop-outro/blob/master/README.md">outro</a>: Thor<br>
 	     </td>
          <td>Naoe</td><!--host-->
          <td></td><!--hackmd-->
