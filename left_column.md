@@ -125,13 +125,13 @@ Strongly recommended for the first-time helpers. Please join one of the followin
   (TBA)
 - 11:00 - 12:00
   [Social coding and open software](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md)
-  (TBA)
+  (Annika)
 
 
 **Day 5 (Nov 25, Wed)**
 - 9:00 - 10:30
   [Documentation](https://coderefinery.github.io/documentation/)
-  (TBA)
+  (Pavlin)
 - 10:30 - 12:00
   [Jupyter](https://coderefinery.github.io/jupyter/)
   (TBA)
@@ -140,7 +140,7 @@ Strongly recommended for the first-time helpers. Please join one of the followin
 **Day 6 (Nov 26, Thu)**
 - 9:00 - 10:30
   [Automated testing](https://coderefinery.github.io/testing/)
-  (TBA)
+  (Anne)
 - 10:45 - 11:45
   [Modular code development](https://github.com/coderefinery/modular-type-along)
   (TBA)
