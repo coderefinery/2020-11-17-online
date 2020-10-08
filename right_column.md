@@ -40,7 +40,7 @@ that, you are definitely capable of being a helper.  If you routinely
 use git and know Python somewhat well, you are also very qualified to
 be a helper.
 
-We arrange a helper onboarding sessions (see under Shedule). It is strongly recommended for the first-time helpers to attend this onboarding session. Please join one of the following sessions that fits your schedule.
+We arrange a helper onboarding sessions (see under Schedule). It is strongly recommended for the first-time helpers to attend this onboarding session. Please join one of the following sessions that fits your schedule.
 
 
 ### What we will not teach
