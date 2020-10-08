@@ -67,8 +67,8 @@ Overlapping roles are allowed when you think it's reasonable!
   <th>18.nov (Wed)</th>
          <td>
 		    git-intro 2/2<br>
-		 	<a href="https://coderefinery.github.io/git-intro/06-branches/">branches and merging</a>: Anne<br>
-		     	<a href="https://coderefinery.github.io/git-intro/08-conflicts/">conflict resolution</a>: Anne<br>
+		 	<a href="https://coderefinery.github.io/git-intro/06-branches/">branches and merging</a>: Sabry (or Diana?)<br>
+		     	<a href="https://coderefinery.github.io/git-intro/08-conflicts/">conflict resolution</a>: Sabry (or Diana?)<br>
 			<a href="https://coderefinery.github.io/git-intro/09-remotes/">sharing repositories</a>: Sabry<br>
 		 	<a href="https://coderefinery.github.io/git-intro/10-archaeology/">history inspection</a>: Sabry<br>
 	     </td>
