@@ -83,9 +83,15 @@ All times are in **Europe/Stockholm time**
 The schedule includes frequent breaks.
 The schedule is subject to change.
 
-**Pre-workshop installation help and verification times**
-- Nov 12 (Thu) 13:00 - 14:00
-- Nov 13 (Fri) 13:00 - 14:00
+**Helper onboarding**
+We arrange a helper onboarding sessions on the following dates and time.
+Strongly recommended for the first-time helpers. Please join one of the following sessions that fits your schedule.
+- Nov 10 (Tue) 13:00 - 14:00
+- Nov 11 (Wed) 10:00 - 11:00
+
+**Installation help and verification times**
+- Nov 10 (Tue) 14:00 - 15:00
+- Nov 11 (Wed) 11:00 - 12:00
 - Join anytime during this (preferably not everyone at the very start
   and end)
 
