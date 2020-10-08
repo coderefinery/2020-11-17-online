@@ -102,7 +102,7 @@ Overlapping roles are allowed when you think it's reasonable!
   <th>25.nov (Wed)</th>
          <td>
 		    <a href="https://coderefinery.github.io/documentation/">documentation</a>: Pavlin<br>
-		    <a href="https://coderefinery.github.io/jupyter/">jupyter</a>: TBA<br>
+		    <a href="https://coderefinery.github.io/jupyter/">jupyter</a>: Radovan<br>
 	     </td>
          <td>Naoe</td><!--host-->
          <td></td><!--hackmd-->
@@ -112,7 +112,7 @@ Overlapping roles are allowed when you think it's reasonable!
   <th>26.nov (Thu)</th>
          <td>
 		     <a href="https://coderefinery.github.io/testing/">testing</a>: Anne<br>
-		     <a href="https://github.com/coderefinery/modular-type-along">modular code development</a>: TBA<br>
+		     <a href="https://github.com/coderefinery/modular-type-along">modular code development</a>: Radovan<br>
 		 <a href="https://github.com/coderefinery/workshop-outro/blob/master/README.md">outro</a>: Thor<br>
 	     </td>
          <td>Naoe</td><!--host-->
