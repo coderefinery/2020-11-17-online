@@ -61,7 +61,7 @@ Overlapping roles are allowed when you think it's reasonable!
 	     </td>
          <td>Naoe</td><!--host-->
          <td></td><!--hackmd-->
-         <td>Juho</td><!--expert helpers-->
+         <td>Juho, Stefan</td><!--expert helpers-->
 </tr>
 <tr>
   <th>18.nov (Wed)</th>
@@ -74,7 +74,7 @@ Overlapping roles are allowed when you think it's reasonable!
 	     </td>
          <td>Naoe</td><!--host-->
          <td></td><!--hackmd-->
-         <td>Juho</td><!--expert helpers-->
+         <td>Juho, Stefan</td><!--expert helpers-->
 </tr>
 <tr>
   <th>19.nov (The)</th>
@@ -85,7 +85,7 @@ Overlapping roles are allowed when you think it's reasonable!
 	     </td>
          <td>Naoe</td><!--host-->
          <td></td><!--hackmd-->
-         <td>Juho</td><!--expert helpers-->
+         <td>Juho, Stefan</td><!--expert helpers-->
 </tr>
 <tr>
   <th>24.nov (Tue)</th>
@@ -96,7 +96,7 @@ Overlapping roles are allowed when you think it's reasonable!
 	     </td>
          <td>Naoe</td><!--host-->
          <td></td><!--hackmd-->
-         <td>Juho</td><!--expert helpers-->
+         <td>Juho, Stefan</td><!--expert helpers-->
 </tr>
 <tr>
   <th>25.nov (Wed)</th>
@@ -106,7 +106,7 @@ Overlapping roles are allowed when you think it's reasonable!
 	     </td>
          <td>Naoe</td><!--host-->
          <td></td><!--hackmd-->
-         <td>Juho</td><!--expert helpers-->
+         <td>Juho, Stefan</td><!--expert helpers-->
 </tr>
 <tr>
   <th>26.nov (Thu)</th>
@@ -117,7 +117,7 @@ Overlapping roles are allowed when you think it's reasonable!
 	     </td>
          <td>Naoe</td><!--host-->
          <td></td><!--hackmd-->
-         <td>Juho</td><!--expert helpers-->
+         <td>Juho, Stefan</td><!--expert helpers-->
 </tr>
 </table>
 
