@@ -70,6 +70,7 @@ Python.
 
 - Max R. Eckardt
 - Juho Lehtonen
+- Emiliano Molinaro
 - Stefan Negru
 
 ### Helpers
