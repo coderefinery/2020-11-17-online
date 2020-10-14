@@ -60,7 +60,7 @@ Overlapping roles are allowed when you think it's reasonable!
 		     	<a href="https://coderefinery.github.io/git-intro/04-staging-area/">staging</a>, <a href="https://coderefinery.github.io/git-intro/05-undoing/">undoing</a>: Sabry<br>
 	     </td>
          <td>Naoe</td><!--host-->
-         <td></td><!--hackmd-->
+         <td>Juho</td><!--hackmd-->
          <td>Juho, Stefan, Emiliano</td><!--expert helpers-->
 </tr>
 <tr>
@@ -73,7 +73,7 @@ Overlapping roles are allowed when you think it's reasonable!
 		 	<a href="https://coderefinery.github.io/git-intro/10-archaeology/">history inspection</a>: Sabry<br>
 	     </td>
          <td>Naoe</td><!--host-->
-         <td></td><!--hackmd-->
+         <td>Juho</td><!--hackmd-->
          <td>Juho, Stefan, Emiliano</td><!--expert helpers-->
 </tr>
 <tr>
@@ -84,7 +84,7 @@ Overlapping roles are allowed when you think it's reasonable!
 		 	<a href="https://coderefinery.github.io/git-collaborative/03-distributed/">forking</a> and <a href="https://coderefinery.github.io/git-collaborative/04-contributing/">contribution to others</a>: Thor<br>
 	     </td>
          <td>Naoe</td><!--host-->
-         <td></td><!--hackmd-->
+         <td>Juho</td><!--hackmd-->
          <td>Juho, Stefan, Emiliano</td><!--expert helpers-->
 </tr>
 <tr>
@@ -95,7 +95,7 @@ Overlapping roles are allowed when you think it's reasonable!
 		     	<a href="https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md">social coding</a>: Annika<br>
 	     </td>
          <td>Naoe</td><!--host-->
-         <td></td><!--hackmd-->
+         <td>Juho</td><!--hackmd-->
          <td>Juho, Stefan</td><!--expert helpers-->
 </tr>
 <tr>
@@ -105,7 +105,7 @@ Overlapping roles are allowed when you think it's reasonable!
 		    <a href="https://coderefinery.github.io/jupyter/">jupyter</a>: Radovan<br>
 	     </td>
          <td>Naoe</td><!--host-->
-         <td></td><!--hackmd-->
+         <td>Juho</td><!--hackmd-->
          <td>Juho, Stefan</td><!--expert helpers-->
 </tr>
 <tr>
@@ -116,7 +116,7 @@ Overlapping roles are allowed when you think it's reasonable!
 		 <a href="https://github.com/coderefinery/workshop-outro/blob/master/README.md">outro</a>: Thor<br>
 	     </td>
          <td>Naoe</td><!--host-->
-         <td></td><!--hackmd-->
+         <td>Juho</td><!--hackmd-->
          <td>Juho, Stefan</td><!--expert helpers-->
 </tr>
 </table>
