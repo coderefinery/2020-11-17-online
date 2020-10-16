@@ -127,11 +127,11 @@ The schedule includes frequent breaks.
 
 **Day 5 (Nov 25, Wed)**
 - 9:00 - 10:30
-  [Documentation](https://coderefinery.github.io/documentation/)
-  (Pavlin)
-- 10:30 - 12:00
   [Jupyter](https://coderefinery.github.io/jupyter/)
   (Radovan)
+- 10:30 - 12:00
+  [Documentation](https://coderefinery.github.io/documentation/)
+  (Pavlin)
 
 
 **Day 6 (Nov 26, Thu)**
