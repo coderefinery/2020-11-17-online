@@ -2,9 +2,9 @@
 
 ### Registration
 
-<a class="btn btn-success" href="https://indico.neic.no/event/156/" data-mode="1" target="_blank">>Register (closed to solo learners)</a> 
+<a class="btn btn-success" href="https://indico.neic.no/event/156/" data-mode="1" target="_blank">Register (closed to solo learners)</a> 
 
-* **First round for solo-learner registration is full:** -
+**First round for solo-learner registration is full:**
 Registration is only open for individual helpers and teams with a helper. Learner registrations will not be approved unless a helper registers with the same team-name. Otherwise, you will be in a waitlist.
 
 ### Contact
