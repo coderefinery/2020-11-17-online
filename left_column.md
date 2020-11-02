@@ -105,7 +105,7 @@ The schedule includes frequent breaks.
 **Day 2 (Nov 18, Wed)**
 - 9:00 - 12:00
   [Introduction to version control - part 2/2](https://coderefinery.github.io/git-intro/) ("Branching and merging" to "Inspecting history")
-  (Sabry)
+  (Sabry and Matus)
 
 
 **Day 3 (Nov 19, Thu)**
