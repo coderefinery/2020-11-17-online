@@ -59,6 +59,7 @@ Python.
 
 - Radovan Bast
 - Anne Fouilloux
+- Matus Kalas
 - Pavlin Mitev
 - Sabry Razick
 - Annika Rockenberger
