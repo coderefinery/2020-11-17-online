@@ -69,7 +69,7 @@ and/or ask for help to translate these instructions to work on your system.**
 - [(optional) Visual diff tools](https://coderefinery.github.io/installation/difftools/)
 - [Python](https://coderefinery.github.io/installation/python/)
 - [Jupyter and JupyterLab](https://coderefinery.github.io/installation/jupyter)
-- [Snakemake](https://coderefinery.github.io/installation/snakemake)
+- [(optional) Snakemake](https://coderefinery.github.io/installation/snakemake)
 - [Zoom](https://coderefinery.github.io/installation/zoom/) 
 
 **You should either a) drop by one of our verification sessions in
