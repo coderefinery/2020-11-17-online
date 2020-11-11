@@ -75,8 +75,18 @@ Python.
 
 ### Helpers
 
+- Octavian Andrei
+- Rohit Goswami
 - Raphaela Heil
+- Johan Hellsvik
+- Patric Holmvall
 - Diana Iusan
+- Alessandro Marin
+- Matthew Morris
+- Athanasios Protopapas
+- Annajiat Alim Rasel
+- Anthony Scemama
+- Ingrid Strandberg
 
 ([Tips for
 helpers](https://coderefinery.github.io/manuals/helping-and-teaching/)).
