@@ -279,6 +279,9 @@ https://coderefinery.github.io/git-intro/09-remotes/
   ```
   What is most likely wrong?
   - SSH access is probably not set up. See https://docs.github.com/en/free-pro-team@latest/github/using-git/which-remote-url-should-i-use#cloning-with-ssh-urls
+  - The ssh key was not added via ssh-add. Adding the key solved the issue.
+
+- While merging, **Git** can only handle *"obvious"* conflicts in individual lines, right? I guess if there is a function `func` in `master` that is used in branch `a` but altered in branch `b`, these three branches can be merged without conflict but it will cause erroneous behavior, won't it? Because the usage of `func` in branch `a` differs from its implementation in branch `b` (and hence in the merged `master` branch).
 
 
 ## Break until xx:15
@@ -296,7 +299,7 @@ https://coderefinery.github.io/git-intro/10-archaeology/
     - no, only in the code changes 
     - so this can be useful if you want to find out where/when something got added or removed and you don't see it from "normal" `git log` or `git log --oneline`
     - typical use case: "there used to be that variable X. when did I change that?"
-        - thanks for this example
+        - thanks for this example **+1**
 
 - He just mentioned that he was using Git bash, I'm using the command line in windows. Is there a benefit of using Git bash?
     - mostly depends on your preference I guess, but Gitbash is probably somewhat easier for Git and has unix commands
@@ -326,7 +329,8 @@ https://coderefinery.github.io/git-intro/10-archaeology/
                      - ```C:\Users\XXXX\recipe\recipe-branching\rvest>git grep 'No links matched that expression'
                         fatal: ambiguous argument 'links': unknown revision or path not in the working tree.
                         Use '--' to separate paths from revisions, like this:
-                        'git <command> [<revision>...] -- [<file>...]'```
+                        'git <command> [<revision>...] -- [<file>...]'
+                        ```
                           - try with double quotes? error looks like that git thinks "links" is a file.
 
                             ```R/session.R:      stop("No links matched that expression", call. = FALSE)```
@@ -388,10 +392,12 @@ Good:
 - bisect is amazing. looking forward to try it
 - I had done a workshop on Git and version control before, but this one has really helped me understand how powerful Git really is. Just need to figure out how to use it for my own work.
 - exploring history
+- IMHO you explained the whole branching/merging issue very nicely. I think I understood it now!
 
 To improve:
 - Just one note, the second instructor did not have the console history recorded in a doc so it was hard to follow sometime
-- I think it's a lot better to type-along than just watch
+- I think it's a lot better to type-along than just watch :+1:x2
+    - that of course must go a bit slower then but it saves the *"now for two minutes do what I have just shown"*
 - I agree with the above, in general I prefer: group exercise > type-along > just watching.
 - Same for me. I much prefer to type along, and then do the group exercises and discuss in the breakout room. I had some difficulties in the first part of today's lecture, since I had some issues with my files not showing up in the correct branches. As such, I had to delete my repo and restart, which caused me to lag behind and not follow the lecture properly.
   - we need a better starting point for day 2, I have created github issues for that  
@@ -399,6 +405,15 @@ To improve:
   - thanks for comment. indeed we would love to also give more advanced concepts but it is a difficult balance but maybe different room distribution could work. but we will over the next workshop days revisit some of the concepts and go more in-depth.
 
 - ensure some time to discuss the interesting discussion questions on the webpage of the course programme :+1:. I'm wondering about many of them. e.g. "Discuss how Git handles conflicts compared to the Google Drive" 
+
+- how can we report typos and/or other things related to the course material webpage.
+    - thanks for asking! you can report typos and any problems as "issues" in the underlying github repositories. For git-intro it's here: https://github.com/coderefinery/git-intro
+    - you can create an issue by clicking "Issues" next to "Code" at the top, and then "New Issue"
+    - You can find the underlying github repos by clicking the "fork me on GitHub" banner in the top right corner of the lessons
+        - did as a pull request in the end https://github.com/coderefinery/git-intro/pull/276
+
+- (no feedback, but question regarding this morning and important for tomorrow i think): can you explain the most important differences between a public or private repository? Is it possible to have a public repository, but keep some working material still private for a collaborative working group? Thanks!
+
 
 :::info
 *Always ask questions at the very bottom of this document, right above this. Switch to view mode if you are only watching.*
