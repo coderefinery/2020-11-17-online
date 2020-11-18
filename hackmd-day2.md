@@ -352,23 +352,23 @@ https://coderefinery.github.io/git-intro/10-archaeology/
 
 Please tell us here how it is going and if you need help.
 
-- Group 2: Max visited. Going well.
-- Group 3: Max visited. Going well. Made some progress but got sidetracked with an issue related to the previous section, so not everyone finished
-- Group 4: Max visited. Going well.
+- Group 2: visited. Going well.
+- Group 3: visited. Going well. Made some progress but got sidetracked with an issue related to the previous section, so not everyone finished
+- Group 4: visited. Going well.
     - Why master branch is not shown after checkout old code?
     - could not go through the exercise itself but only the commands showed in the teaching 
     - What about this command: `git log -S 'No links matched that expression'` ?
-- Group 5: Emiliano visited. Going well.
-- Group 6: Max visited. Going well.
-- Group 7: Thor has been there from the beginning.
-- Group 10: Going fine. Juho visited.
-- Group 11: Need help for supervision. No problems yet though. Going well. (I will assign one when one is back to main room) Richard is visiting.
-- Group 13: Matus is the helper.
+- Group 5: visited. Going well.
+- Group 6: visited. Going well.
+- Group 7: has been there from the beginning.
+- Group 10: Going fine. visited.
+- Group 11: Need help for supervision. No problems yet though. Going well. (I will assign one when one is back to main room) nnn is visiting.
+- Group 13: nnn is the helper.
 - Group 15: going well, moved on to `git bisect`
 - Group 16: ok
 - Group 17: all going well.
-- Group 18: Max visited. working well.
-- Group 19: Juho is visiting. Going fine
+- Group 18: visited. working well.
+- Group 19: nnn is visiting. Going fine
 
 
 -------
