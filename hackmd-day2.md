@@ -185,6 +185,7 @@ Merging branches on your own until: XX:22
 - Why there was no conflict on the first merge with like-cilantro to master ? It was also targeting a change in a line with cilantro. However, only the second merge raised a conflict
   - because that line was not modified on `like-cilantro` and `master` in two different ways before that merge. only after we have merged `like-cilantro` we have a modification of that line on `master` and the second merge will conflict. Please let me know if this explanation was not helpful enough and we expand.
   - **follow-up:** I still don't get it: The line has also been changed in master, just not in the directly previous commit but some time earlier. Does git only look at changes in the directly previous commit on the file to be merged? Or does it look at timestamps to give one version precedence? Why would it overwise choose the `like-cilantro` version over the `master` version? 
+     - The first merge did not conflict because the earlier change was an ancestor of the later change. In this case it assumes that the later change was intentional and there is a clear ordering of changes. The second merge conflicts because the change on `less-salt` and `experiment` are topologically not ordered but happened "in parallel". In this case Git does not take the later change in terms of time stamp but it compares whether they are related in terms of "ancestry". Please do not hesitate to raise this issue if it is not clear or not well explained.
 
 - I managed to make 2 consecutive merges on a same line without having a conflict. Does it depend on the position of the HEAD?
     - it could be that you did not merge both branches into the master branch, because it *should* conflict if you modified same line in two different branches
@@ -279,6 +280,10 @@ https://coderefinery.github.io/git-intro/09-remotes/
   ```
   What is most likely wrong?
   - SSH access is probably not set up. See https://docs.github.com/en/free-pro-team@latest/github/using-git/which-remote-url-should-i-use#cloning-with-ssh-urls
+  - The ssh key was not added via ssh-add. Adding the key solved the issue.
+
+- While merging, **Git** can only handle *"obvious"* conflicts in individual lines, right? I guess if there is a function `func` in `master` that is used in branch `a` but altered in branch `b`, these three branches can be merged without conflict but it will cause erroneous behavior, won't it? Because the usage of `func` in branch `a` differs from its implementation in branch `b` (and hence in the merged `master` branch).
+    - Correct. Git doesn't know wheter it's merging source code or song lyrics. Logical conflicts can be easily introduced into code without merge conflicts. If separate tasks involve common code, communication between developers is needed.
 
 
 ## Break until xx:15
@@ -296,7 +301,7 @@ https://coderefinery.github.io/git-intro/10-archaeology/
     - no, only in the code changes 
     - so this can be useful if you want to find out where/when something got added or removed and you don't see it from "normal" `git log` or `git log --oneline`
     - typical use case: "there used to be that variable X. when did I change that?"
-        - thanks for this example
+        - thanks for this example **+1**
 
 - He just mentioned that he was using Git bash, I'm using the command line in windows. Is there a benefit of using Git bash?
     - mostly depends on your preference I guess, but Gitbash is probably somewhat easier for Git and has unix commands
@@ -326,7 +331,8 @@ https://coderefinery.github.io/git-intro/10-archaeology/
                      - ```C:\Users\XXXX\recipe\recipe-branching\rvest>git grep 'No links matched that expression'
                         fatal: ambiguous argument 'links': unknown revision or path not in the working tree.
                         Use '--' to separate paths from revisions, like this:
-                        'git <command> [<revision>...] -- [<file>...]'```
+                        'git <command> [<revision>...] -- [<file>...]'
+                        ```
                           - try with double quotes? error looks like that git thinks "links" is a file.
 
                             ```R/session.R:      stop("No links matched that expression", call. = FALSE)```
@@ -347,6 +353,8 @@ https://coderefinery.github.io/git-intro/10-archaeology/
   - If you return 125, git will skip that commit. You can return that if for example the code does not build. (Didn't try it, but found as answer earlier)
   - Excellent, thanks! 
   - I found the issue by using git bisect manually, but it is tedious ... Then I tried the script provided, but I could not get it to work, git bisect complains that : "somehash was both good and bad" presumably because there is an issue with the exit code, when I run the python script it only prints an empty line ... Any ideas what I can try here ?
+    - I just tried the example and it worked for me so I suspect that we have used it differently. I have saved the script as `test.py` and after defining the search endpoints, I ran: `git bisect run python test.py` and it located the bad commit. I suggest we look at it together via screenshare?
+
 
 ### Breakout room status
 
@@ -388,10 +396,14 @@ Good:
 - bisect is amazing. looking forward to try it
 - I had done a workshop on Git and version control before, but this one has really helped me understand how powerful Git really is. Just need to figure out how to use it for my own work.
 - exploring history
+- IMHO you explained the whole branching/merging issue very nicely. I think I understood it now!
 
 To improve:
 - Just one note, the second instructor did not have the console history recorded in a doc so it was hard to follow sometime
-- I think it's a lot better to type-along than just watch
+    - Thank you for noticing this. We try to ensure that command history is available.
+- I think it's a lot better to type-along than just watch :+1:x2
+    - that of course must go a bit slower then but it saves the *"now for two minutes do what I have just shown"*
+    - Thanks for the comment. We aim for group exercises and type-alongs and check and adjust our lesson timing to allow more those.
 - I agree with the above, in general I prefer: group exercise > type-along > just watching.
 - Same for me. I much prefer to type along, and then do the group exercises and discuss in the breakout room. I had some difficulties in the first part of today's lecture, since I had some issues with my files not showing up in the correct branches. As such, I had to delete my repo and restart, which caused me to lag behind and not follow the lecture properly.
   - we need a better starting point for day 2, I have created github issues for that  
@@ -399,6 +411,21 @@ To improve:
   - thanks for comment. indeed we would love to also give more advanced concepts but it is a difficult balance but maybe different room distribution could work. but we will over the next workshop days revisit some of the concepts and go more in-depth.
 
 - ensure some time to discuss the interesting discussion questions on the webpage of the course programme :+1:. I'm wondering about many of them. e.g. "Discuss how Git handles conflicts compared to the Google Drive" 
+
+- how can we report typos and/or other things related to the course material webpage.
+    - thanks for asking! you can report typos and any problems as "issues" in the underlying github repositories. For git-intro it's here: https://github.com/coderefinery/git-intro
+    - you can create an issue by clicking "Issues" next to "Code" at the top, and then "New Issue"
+    - You can find the underlying github repos by clicking the "fork me on GitHub" banner in the top right corner of the lessons
+        - did as a pull request in the end https://github.com/coderefinery/git-intro/pull/276
+
+- (no feedback, but question regarding this morning and important for tomorrow i think): can you explain the most important differences between a public or private repository? Is it possible to have a public repository, but keep some working material still private for a collaborative working group? Thanks!
+    - As long as you don't ever create repository in GitHub (or similar service) and don't `git push` everything is only your local computer.
+    - If you want to collaborate via GitHub (or similar) you can choose whether you create a public or private repository for your collaboration. We have so far seen public ones. For private repositories you usually have to pay for (but not always).
+    - Public repositories anyone can see and clone and fork to use as they want, restricted by the license defined in the repository. Repository owner controls who can push or merge to the repository.
+    - Private repositories can't be seen or cloned or forked (or pushed) anyone but collaborators having the access.
+    - You can set up your own local git repository (gitlab, gitea) for your working group.
+    - It is possible to spilt your sources in two repositories, one of which is pushed to some private repo and the other one pushed to a public repo. Or you could push all repositories to a private service and set the public ones to be automatically mirrored to a public repo. Setting up the mirroring of a repository might depend on the collaboration service/platform or requires a little bit tweaking.
+
 
 :::info
 *Always ask questions at the very bottom of this document, right above this. Switch to view mode if you are only watching.*
