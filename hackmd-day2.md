@@ -282,6 +282,7 @@ https://coderefinery.github.io/git-intro/09-remotes/
   - The ssh key was not added via ssh-add. Adding the key solved the issue.
 
 - While merging, **Git** can only handle *"obvious"* conflicts in individual lines, right? I guess if there is a function `func` in `master` that is used in branch `a` but altered in branch `b`, these three branches can be merged without conflict but it will cause erroneous behavior, won't it? Because the usage of `func` in branch `a` differs from its implementation in branch `b` (and hence in the merged `master` branch).
+    - Correct. Git doesn't know wheter it's merging source code or song lyrics. Logical conflicts can be easily introduced into code without merge conflicts. If separate tasks involve common code, communication between developers is needed.
 
 
 ## Break until xx:15
@@ -396,8 +397,10 @@ Good:
 
 To improve:
 - Just one note, the second instructor did not have the console history recorded in a doc so it was hard to follow sometime
+    - Thank you for noticing this. We try to ensure that command history is available.
 - I think it's a lot better to type-along than just watch :+1:x2
     - that of course must go a bit slower then but it saves the *"now for two minutes do what I have just shown"*
+    - Thanks for the comment. We aim for group exercises and type-alongs and check and adjust our lesson timing to allow more those.
 - I agree with the above, in general I prefer: group exercise > type-along > just watching.
 - Same for me. I much prefer to type along, and then do the group exercises and discuss in the breakout room. I had some difficulties in the first part of today's lecture, since I had some issues with my files not showing up in the correct branches. As such, I had to delete my repo and restart, which caused me to lag behind and not follow the lecture properly.
   - we need a better starting point for day 2, I have created github issues for that  
@@ -413,6 +416,12 @@ To improve:
         - did as a pull request in the end https://github.com/coderefinery/git-intro/pull/276
 
 - (no feedback, but question regarding this morning and important for tomorrow i think): can you explain the most important differences between a public or private repository? Is it possible to have a public repository, but keep some working material still private for a collaborative working group? Thanks!
+    - As long as you don't ever create repository in GitHub (or similar service) and don't `git push` everything is only your local computer.
+    - If you want to collaborate via GitHub (or similar) you can choose whether you create a public or private repository for your collaboration. We have so far seen public ones. For private repositories you usually have to pay for (but not always).
+    - Public repositories anyone can see and clone and fork to use as they want, restricted by the license defined in the repository. Repository owner controls who can push or merge to the repository.
+    - Private repositories can't be seen or cloned or forked (or pushed) anyone but collaborators having the access.
+    - You can set up your own local git repository (gitlab, gitea) for your working group.
+    - It is possible to spilt your sources in two repositories, one of which is pushed to some private repo and the other one pushed to a public repo. Or you could push all repositories to a private service and set the public ones to be automatically mirrored to a public repo. Setting up the mirroring of a repository might depend on the collaboration service/platform or requires a little bit tweaking.
 
 
 :::info
