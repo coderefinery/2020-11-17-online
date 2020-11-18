@@ -185,6 +185,7 @@ Merging branches on your own until: XX:22
 - Why there was no conflict on the first merge with like-cilantro to master ? It was also targeting a change in a line with cilantro. However, only the second merge raised a conflict
   - because that line was not modified on `like-cilantro` and `master` in two different ways before that merge. only after we have merged `like-cilantro` we have a modification of that line on `master` and the second merge will conflict. Please let me know if this explanation was not helpful enough and we expand.
   - **follow-up:** I still don't get it: The line has also been changed in master, just not in the directly previous commit but some time earlier. Does git only look at changes in the directly previous commit on the file to be merged? Or does it look at timestamps to give one version precedence? Why would it overwise choose the `like-cilantro` version over the `master` version? 
+     - The first merge did not conflict because the earlier change was an ancestor of the later change. In this case it assumes that the later change was intentional and there is a clear ordering of changes. The second merge conflicts because the change on `less-salt` and `experiment` are topologically not ordered but happened "in parallel". In this case Git does not take the later change in terms of time stamp but it compares whether they are related in terms of "ancestry". Please do not hesitate to raise this issue if it is not clear or not well explained.
 
 - I managed to make 2 consecutive merges on a same line without having a conflict. Does it depend on the position of the HEAD?
     - it could be that you did not merge both branches into the master branch, because it *should* conflict if you modified same line in two different branches
@@ -352,6 +353,8 @@ https://coderefinery.github.io/git-intro/10-archaeology/
   - If you return 125, git will skip that commit. You can return that if for example the code does not build. (Didn't try it, but found as answer earlier)
   - Excellent, thanks! 
   - I found the issue by using git bisect manually, but it is tedious ... Then I tried the script provided, but I could not get it to work, git bisect complains that : "somehash was both good and bad" presumably because there is an issue with the exit code, when I run the python script it only prints an empty line ... Any ideas what I can try here ?
+    - I just tried the example and it worked for me so I suspect that we have used it differently. I have saved the script as `test.py` and after defining the search endpoints, I ran: `git bisect run python test.py` and it located the bad commit. I suggest we look at it together via screenshare?
+
 
 ### Breakout room status
 
