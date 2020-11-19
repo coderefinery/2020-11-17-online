@@ -131,23 +131,6 @@ Exercise goal:
 1. Go through the type along (what the instructor did)
 2. Exercise: record changes
 
-#### Group status (please type how you are doing)
-
-- Group 2: finished
-- Group 3: exercise completed, some moved to the optional part 
-- Group 4: finished, now in optional exercise
-- Group 5: Finished
-- Group 6: Finished. All fine
-- Group 10: working along! Participants are starting the excersise
-- Group 11: proceeding ok with exercises, optional exercises now
-- Group 13: finished, doing the optionals
-- Group 15: finishing exercise 1 soon. all fine.
-- Group 16: all finished the base exercise, some optionals
-- Group 17: all going well, 4/5 working on the optional exercises
-- Group 18: all fine.
-- Group 19: all fine too. Exercise 1 is done
-
-
 ### Break until xx:45
 
 
