@@ -377,15 +377,14 @@ Are the following cases derivative work? Answers:
     - At UiB it clearly says that the university's IP rules DO NOT prevent authors from publishing open source software.
 
 -  Is there any good material which discusses a comparison among some of the followings:
-```
-1. Jupyter terminal
-2. cmd
-3. powershell
-4. anaconda powershell prompt
-5. anaconda prompt
-6. git bash
-```
-
+   ```
+   1. Jupyter terminal
+   2. cmd
+   3. powershell
+   4. anaconda powershell prompt
+   5. anaconda prompt
+   6. git bash
+   ```
     - A great question! I'm not aware of such, and it will depend on OS, at least. Maybe something CR could provide?
         - On my Windows 10 laptop, I use: Git Bash for everything where I don't need conda (git, ssh, python, bash, ...); Anaconda Prompt if I need conda (or want to test a script whether it works there too); terminal in Jupyter if I do something on a server that runs Jypyter Lab, or if I quickly need to test something while otherwise working in Jupyter Lab; shell commands in a Jupyter Notebook if I need (with "!"); and none of the rest. And I use [Gitpod](https://gitpod.io) when hacking with some C++ toy code.
     - Please others answer more ...
