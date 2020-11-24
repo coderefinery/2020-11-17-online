@@ -150,7 +150,9 @@ Any other questions that you would like to have clarified?
             - Maybe your institution pays for these accounts anyways ? (Ours does at least, if yours doesn't maybe you can pitch it - pandemics have a tendency to lead to money being spend on this type of stuff)
 
 
-###  Exercise/discussion (https://coderefinery.github.io/reproducible-research/03-dependencies/#exercisediscussion)
+###  Exercise/discussion 
+
+https://coderefinery.github.io/reproducible-research/03-dependencies/#exercisediscussion
 
 Compare A, B, C, D
 
@@ -171,7 +173,9 @@ Compare A, B, C, D
     - For any project using some programming language, the environment consists of the installed/used version of the programming language (compiler / interpreter), libraries and  anything else affecting the result of running the project code. The usual default is the compilers/interpreters and libraries installed withinstalled with
 
 
-### Exercise https://coderefinery.github.io/reproducible-research/03-dependencies/#exercise-creating-and-exporting-conda-environments
+### Exercise 
+
+https://coderefinery.github.io/reproducible-research/03-dependencies/#exercise-creating-and-exporting-conda-environments
 
 - Sorry but some of us have problems... What do we have to do with the requirements.txt?
     - one saves the requirements.txt file in a directory, and then creates an environment from scratch based on the file: `conda create --name wordcount --file requirements.txt --channel bioconda --channel conda-forge` (or with pip: `pip install -r requirements.txt`)
@@ -197,9 +201,11 @@ Compare A, B, C, D
 ### Break until XX:00
 
 
-### Recording computational steps https://coderefinery.github.io/reproducible-research/04-workflow-management/
+### Recording computational steps 
 
-- We will do this in breakout rooms, and we will be using mybinder.org (cloud service) 
+https://coderefinery.github.io/reproducible-research/04-workflow-management/
+
+We will do this in breakout rooms, and we will be using mybinder.org (cloud service) 
 
 - In the snakemake example picture (first line): we tell the snakemake what files will be used as an input, not created, isn't it? Is there a typo in the picture?
     - do you mean the picture underneath the Snakefile box?
@@ -209,39 +215,23 @@ Compare A, B, C, D
     - and more tips in the official documentation: https://snakemake.readthedocs.io/en/stable/executing/cluster.html
     - https://hpc-carpentry.github.io/hpc-python/17-cluster/
     - https://www.sichong.site/2020/02/25/snakemake-and-slurm-how-to-manage-workflow-with-resource-constraint-on-hpc/
-    - 
 - Is there a difference between snakemake and the SLURM --array option?
     - SLURM array jobs aren't based on a workflow graph AFAIK, it's just a mechanism to submit multiple jobs in one go so you can't use the nice feature to let the tool figure out which steps to rerun if something changes. 
     - SLURM does support job dependencies though with `--dependency` (see e.g. [here](https://www.hpc2n.umu.se/documentation/batchsystem/job-dependencies)), but again not exactly the same thing
 
 
-### Exercise https://coderefinery.github.io/reproducible-research/04-workflow-management/#exercise-using-snakemake
-### Breakout room exercise until XX:35
+### Exercise, until XX:35
 
-#### Room status
+https://coderefinery.github.io/reproducible-research/04-workflow-management/#exercise-using-snakemake
 
-- room 2: doing well, not 100% done. Most time was spent explaining snakemake.
-- room 3: spent all time trying to explain what snakemake is, didn't quite finish but ran through most of the snakefile. 
-- room 4
-    - any command to produce the tree as in https://coderefinery.github.io/reproducible-research/04-workflow-management/#one-problem-solved-in-4-different-ways
-        - Here it is:  snakemake -j 1 --dag | dot -Tpng > dag.png
+- any command to produce the tree as in https://coderefinery.github.io/reproducible-research/04-workflow-management/#one-problem-solved-in-4-different-ways
+    - Here it is:  snakemake -j 1 --dag | dot -Tpng > dag.png
         (you need to install graphviz: conda install -c anaconda graphviz)
-            - I meant listing the directories tree ... the first visual not the snamake visual
-                - isn't it simply the 'tree' bash command?
-    - where is 'book' defined? here DATA = glob_wildcards('data/{book}.txt').book
-- room 5: Doing well
-    - Is snakemake just for python or does it work for other source code?
+        - I meant listing the directories tree ... the first visual not the snamake visual
+            - isn't it simply the 'tree' bash command?
+- where is 'book' defined? here DATA = glob_wildcards('data/{book}.txt').book
+- Is snakemake just for python or does it work for other source code?
     - it's completely general! Snakemake is written in Python, and the syntax of the Snakefile is Python, but you can define rules for running shell scripts, compiled code or any tool
-- room 6: Doing well
-- room 7
-- room 10: Going fine
-- room 11: Doing well
-- room 13: Going fine
-- room 15: we did step 6, but were cut off while summarizing; we did not do the archiving 
-- room 16: ok
-- room 17: some issues with binder being slow to launch
-- room 18
-- room 19
 
 ---
 
@@ -262,7 +252,6 @@ Compare A, B, C, D
 - As I understood, you can only get a DOI once you have a release. What if you do another release and want to update in zenodo? You get another DOI?
     - yes you get another DOI whenever you create a new release!
     - Thanks!
-- 
 - Does a repository need to be public to make a DOI?
     - Yes. By definition a private repository cannot be findable (actually you do not want anyone to see it so you don't want to be findable). but what is recommended is to have public metadata information for which you can get a DOI so it can be findable (to notify that your pricate repo exists). 
     - Ok. thanks
