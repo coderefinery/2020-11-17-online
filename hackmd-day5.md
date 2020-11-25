@@ -213,7 +213,7 @@ You can continue to Ex. 2 if you have time
 ### Break until XX:13
 
 
-- There was a question about organising big documentation into folders. It's a good option indeed, example is here: https://docs.galaxyproject.org/en/master/ | https://github.com/galaxyproject/galaxy/tree/dev/doc/source 
+- There was a question about organising big documentation into folders. It's a good option indeed, example is here: https://docs.galaxyproject.org/en/master/, https://github.com/galaxyproject/galaxy/tree/dev/doc/source 
 
 
 ### Excercise until XX:32
