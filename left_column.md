@@ -139,7 +139,7 @@ The schedule includes frequent breaks.
   [Automated testing](https://coderefinery.github.io/testing/)
   (Anne)
 - 10:45 - 11:45
-  [Modular code development](https://github.com/coderefinery/modular-type-along)
+  [Modular code development](https://coderefinery.github.io/modular-type-along/)
   (Radovan)
 - 11:45 - 12:00
   [Concluding remarks and where to go from here](https://github.com/coderefinery/workshop-outro/blob/master/README.md)
