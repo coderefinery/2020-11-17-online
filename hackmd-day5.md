@@ -97,7 +97,7 @@ Goals:
   - we should add some screenshots: https://github.com/coderefinery/jupyter/issues/83
 
 - I am not able to launch jupyter-lab from GitBash but when using Anaconda Prompt it works. How could I launch it from GitBash?
-   - (answer required)
+   - **answer required**
 
 - Which tool does Radovan use in the terminal to get proposal of commands (like auto-fill)? Looks decent!
     - `fish` is a linux shell with this tab completion https://fishshell.com/
@@ -144,7 +144,7 @@ After the break: https://coderefinery.github.io/jupyter/06-sharing/
 
 
 
-## Exercise until xx:30
+### Exercise until xx:30
 
 
 - room 13: I got an error from *Binder*: 
@@ -267,7 +267,7 @@ Until 12:00
 - Our research group at Linkoping University is looking for a person that can arrange a workshop/lectur about code testing(unittest etc). If anyone want to please write.
 
 - when writing a large documentation, are we supposed to leave all the rst files for the different subsections, or can we divide into subdirectories according to their hierarchy? Right now it seems to me that the hierarchy is only explicit in the index.rst file. Can we have rst files containing intermediate hierarchies (e.g. one rst file per "chapter", but each of them in turn links to different rst files for each section of the chapter). Or is the index.rst file the only place to specify how our documentation is organized?
-    - answer required
+    - **answer required**
 
 
 ## Feedback
