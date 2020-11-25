@@ -54,10 +54,9 @@ Are you using R Markdown and/or R Studio?
 - I am very very used to using the jupyter notebook, do I really HAVE to switch to lab?
     - No
     - just to avoid misunderstanding, JupyterLab is a tool for editing Jupyter notebooks, but the interface is different than the old jupyter-notebook interface
-    - 
 
 - Is there a way of mixing different programming languages in the same notebook?
-
+    - Yes, see [answer below](#multiple-languages-notebook).
 
 ### Excercise, until XX:40
 
@@ -69,7 +68,7 @@ Goals:
 - run all cells from top to bottom
 - optional: try later modifying some cells and running them not in the right order
 
-
+*(Notes continuing)*
 
 - For me it doesn't make a difference whether I use `%matplotlib inline` or omit it, the result is the same anyhow. Is it supposed to be like that? :P 
   - this at least used to be necessary in the past. I am unsure whether it is maybe not necessary anymore.
@@ -86,6 +85,7 @@ Goals:
 - In the notebook I saw "shut down" option. When is it useful? 
     - It will shut down all "kernels" (e.g Python) and then the notbook webserver. When you start the notbook you start a webservice, i.e. an entry point that you can point your browser. When you shutdown this webserver will be shutdown and the port used relised.
 
+<a name="multiple-languages-notebook"></a>
 - Can one mix several languages (e.g. Python and Fortran) in the same notebook?
     - yes, there are "magic commands" that allow you to create a code cell in a specific language, e.g. write in first line of a cell `%%R` for R or `%%bash` for bash. One can install extensions for other languages, even compiled languages
     - and create own extensions/magic commands, see here for C++ example: https://coderefinery.github.io/jupyter/05-examples/#defining-your-own-custom-magic-command
@@ -95,8 +95,9 @@ Goals:
 
 - Perhaps we should elaborate launching a new notebook instructions
   - we should add some screenshots: https://github.com/coderefinery/jupyter/issues/83
-- I am not able to launch jupyter-lab from GitBash but when using Anaconda Prompt it works. How could I launch it from GitBash?
 
+- I am not able to launch jupyter-lab from GitBash but when using Anaconda Prompt it works. How could I launch it from GitBash?
+   - (answer required)
 
 - Which tool does Radovan use in the terminal to get proposal of commands (like auto-fill)? Looks decent!
     - `fish` is a linux shell with this tab completion https://fishshell.com/
@@ -166,13 +167,13 @@ After the break: https://coderefinery.github.io/jupyter/06-sharing/
 
 
 - comment: the exercise time in the Overview here is wrong https://coderefinery.github.io/jupyter/06-sharing/, says 0 min but it's 20 below
-    - thanks, so it seems. fixedfixedfixedfixedfixedfixedfixedfixedfixedfixedfixedfixed.
+    - thanks, so it seems. fixed.
     - yes sorry :-) I changed the exercises but forgot to adapt the timings
 
 - Can I add a new file to the gitrepo from the binder server? 
   - you can add new files but once the Binder times out, all changes will be lost. so if you want to save changes, you need to do that via git/github and reopen a new binder.
 
-- I get an error message: Could not resolve ref for gh:XXXXXX/jupyter-exercise/HEAD. Double check your URL. GitHub recently changed default branches from "master" to "main".
+- I get an error message: `Could not resolve ref for gh:XXXXXX/jupyter-exercise/HEAD. Double check your URL. GitHub recently changed default branches from "master" to "main".`
   - Update: changed from private repo to public - works now:)
     - good point, I forgot to say that for Binder the repo needs to be public 
 
@@ -198,6 +199,16 @@ https://coderefinery.github.io/documentation/04-sphinx/#exercise-1-generate-the-
 
 You can continue to Ex. 2 if you have time
 
+- Questions about exercise 1 (part 2): got the error:
+
+    ```
+    Exception occurred:
+          File "C:\Anaconda3\lib\shutil.py", line 104, in copyfile
+            raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+    ```
+
+    - This was solved by deleting the _build folder and rerunning sphinx.
+
 
 ### Break until XX:13
 
@@ -211,14 +222,9 @@ https://coderefinery.github.io/documentation/05-rtd/#exercise-deploy-sphinx-docu
 
 - room xx: ok. could use a bit more time though
 
-- Questions about exercise 1 (part 2): got the error:
-    - Exception occurred:
-          File "C:\Anaconda3\lib\shutil.py", line 104, in copyfile
-            raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
-        - This was solved by deleting the _build folder and rerunning sphinx.
-
 - ReadTheDocs seems stuck on "Your documentation is building" for several minutes now
     - OK it worked eventually, I can see the docs now. But it really took a long time.
+
 - It's also stuck on building for me, plus the "Error: Duplicated build" +1
   - Same here.
   - Seems to work now on 4th try...
@@ -226,11 +232,11 @@ https://coderefinery.github.io/documentation/05-rtd/#exercise-deploy-sphinx-docu
 
 - When the build is done I get this error message: 
 
-	```
+    ```
 		SORRY                              
             **This page does**
              **not exist yet**    
-        ```
+    ```
 
     - is the page still not building? Sometimes it can take some time
 
@@ -244,27 +250,29 @@ https://coderefinery.github.io/documentation/06-gh-pages/#exercise 
 Until 12:00
 
 #### Room status:
+*CR editor's note: the room status preserved because it describes points to improve*
 
 - room xx: Did not finish. Spent most time discussing/explaining confusion surrounding the connection between pages, sphinx, rst, html, ...
 - room xx: We all get stuck on the first page after clicking "Choose a theme".  The exercise instructions don't work for any of us, we can get a project page via project settings on github but not from the linked pages.github
 - room xx: OK, needed to clarify that repositories must be public
 - room xx: did not manage, the undetailed instructions on https://pages.github.com/ were unsufficent. Took too long before I found the more detailed guide linked at the very bottom. It must've changed since last workshop? Then it wasn't so difficult.
 
-
+*(Notes continuing)*
 
 - How can I sign up for this event: https://nordic-rse.org/events/2020-online-get-together/? 
-  - Thank you for pointing out, you can join from https://indico.neic.no/event/146/ "registration" at the second bottom. It seems the registration link disappeared for some reason.
+    - Thank you for pointing out, you can join from https://indico.neic.no/event/146/ "registration" at the second bottom. It seems the registration link disappeared for some reason.
 
 - My github pages website doesn't update when I commit a change to the code or change theme.
 
 - Our research group at Linkoping University is looking for a person that can arrange a workshop/lectur about code testing(unittest etc). If anyone want to please write.
 
 - when writing a large documentation, are we supposed to leave all the rst files for the different subsections, or can we divide into subdirectories according to their hierarchy? Right now it seems to me that the hierarchy is only explicit in the index.rst file. Can we have rst files containing intermediate hierarchies (e.g. one rst file per "chapter", but each of them in turn links to different rst files for each section of the chapter). Or is the index.rst file the only place to specify how our documentation is organized?
+    - answer required
 
 
 ## Feedback
 
-*CR editor's note:* Feedback was restructured little to facilitate its further use. 
+*CR editor's note: Feedback was restructured little to facilitate its further use.*
 
 One thing you liked:
 
@@ -300,7 +308,7 @@ One thing to improve:
             - Okay, I am saying a lot of "should", I would just like to clarify that this is just my impression and personal opinion, I am not lecturing anyone here, I am *very* grateful for this opportunity and I just hope the comments are helpful!  
     - So today's first part was for me also less well anchored to a conceptual foundation. I have no previous experience with jupyter (have been hearing about it for years but never tried) so it took me a while to realize that this is not a tool for collaboration (at least not directly). I imagined the notebook was some sort of online collaborative coding. Of course that is not the workshop's fault, it's mine, but it should have become clearer what we are trying to achieve at each step, and why. Maybe a diagram of the overall workflow at the beginning could have helped: here is a tool for coding on the cloud, here is how that connects with git, here is how people can work together -- and then each component becomes a lesson and goes along with the exercise. Almost all of this is already there, but it seems to me that the glue that holds it together is sometimes missing, and from the participant's perspective, trying to figure out and provide that glue online oneself while also trying to follow unfamiliar steps over unfamiliar environments/interfaces is sure to overwhelm someone who has no anchoring points. At least that's my opinion.
 
-    - *CR editor's note:* Thank you for taking time to write this feedback! I tried to structure it little to facilitate its use.
+    - *CR editor's note: Thank you for taking time to write this feedback! I tried to structure it little to facilitate its use.*
 
  
 - I think I see now what's wrong with the last exercise (how to make a web page, on https://coderefinery.github.io/documentation/06-gh-pages/). 
