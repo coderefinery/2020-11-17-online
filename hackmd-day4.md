@@ -63,6 +63,7 @@ Any other questions that you would like to have clarified?
 - What about some good Python books? It would be nice if CodeRefinery posted a list of references (links and/or books) for different prgramming languages, if possible.
     - we do have this: https://coderefinery.org/resources/
     - if you know of other good references, don't hesitate to contribute them by raising an issue or send a pull request! (https://github.com/coderefinery/coderefinery.org)
+
 ---
 
 
@@ -377,6 +378,7 @@ Are the following cases derivative work? Answers:
     - At UiB it clearly says that the university's IP rules DO NOT prevent authors from publishing open source software.
 
 -  Is there any good material which discusses a comparison among some of the followings:
+
    ```
    1. Jupyter terminal
    2. cmd
@@ -385,6 +387,7 @@ Are the following cases derivative work? Answers:
    5. anaconda prompt
    6. git bash
    ```
+   
     - A great question! I'm not aware of such, and it will depend on OS, at least. Maybe something CR could provide?
         - On my Windows 10 laptop, I use: Git Bash for everything where I don't need conda (git, ssh, python, bash, ...); Anaconda Prompt if I need conda (or want to test a script whether it works there too); terminal in Jupyter if I do something on a server that runs Jypyter Lab, or if I quickly need to test something while otherwise working in Jupyter Lab; shell commands in a Jupyter Notebook if I need (with "!"); and none of the rest. And I use [Gitpod](https://gitpod.io) when hacking with some C++ toy code.
     - Please others answer more ...
