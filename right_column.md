@@ -68,20 +68,20 @@ Python.
 
 ### Expert helpers
 
+- Richard Darst
 - Max R. Eckardt
 - Juho Lehtonen
 - Emiliano Molinaro
 - Stefan Negru
+- Samantha Wittke
 
 ### Helpers
 
 - Octavian Andrei
-- Rohit Goswami
 - Raphaela Heil
 - Johan Hellsvik
 - Patric Holmvall
 - Diana Iusan
-- Alessandro Marin
 - Matthew Morris
 - Athanasios Protopapas
 - Annajiat Alim Rasel
