@@ -8,4 +8,4 @@ questions, answer, and feedback from the collaborative notes.
 * [Day 3 questions and notes]({{ site.baseurl }}/hackmd-day3/)
 * [Day 4 questions and notes]({{ site.baseurl }}/hackmd-day4/)
 * [Day 5 questions and notes]({{ site.baseurl }}/hackmd-day5/)
-<!--* [Day 6 questions and notes]({{ site.baseurl }}/hackmd-day6/)-->
+* [Day 6 questions and notes]({{ site.baseurl }}/hackmd-day6/)
